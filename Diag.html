@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+      <!-- custom css file link -->
+       <link rel="stylesheet" href="css/diag.css">
+       
+
+</head>
+<body>
+    
+<header>
+
+     <nav>
+          <div class="logo">
+               <a href="#"><img src="logo.jpeg" ></a> 
+          </div>
+     </nav>
+
+<a href="#" class="logo"></a>
+
+<nav class="navbar">
+
+     <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Diag.html">Diagnóstico</a></li>
+          <li><a href="Historico.html">Histórico</a></li>
+     </ul>
+
+</nav>
+
+</header>
+
+
+</body>
+
+
+</html>
+
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Diagnóstico</title>
+  <meta name="description" content="Survey">
+  <meta name="author" content="Luke Lehane">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="css/diag.css">
+
+</head>
+
+<body>   
+  <div class="container">	
+    <div class="row">
+  	  <div class="two-thirds column">
+        <h2>Pré-diagnóstico</h2>
+
+        <div id="progress_bar"></div>
+  	  	<form class="questions_box">
+
+  	  		<div id="question-1">
+  	  		  <h2>Pergunta 2</h2>
+  	  			<h3>Sente algum desses sintomas?</h3><br><br><br>
+  	  			<input id="question-1-answer-a" type="radio" name="favelang" value=1> Perda de olfato  <br><br>
+  				  <input id="question-1-answer-b" type="radio" name="favelang" value=3> Diarreia <br><br>
+  				  <input id="question-1-answer-c" type="radio" name="favelang" value=1> Tosse seca constante <br><br>
+            <input id="question-1-answer-d" type="radio" name="favelang" value=0,5> Nenhuma dessas <br><br>
+  				  <div id="submit1" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+  			  </div>
+
+  			 <div id="question-2">
+  				 <h2>Pergunta 2</h2>
+  				 <h3>Sente algum desses sintomas?</h3><br><br><br>
+  	  		 <input id="question-2-answer-a" type="radio" name="favelang" value="1"> Cansaço <br><br>
+  				 <input id="question-2-answer-b" type="radio" name="favelang" value="3"> Calafrios<br><br>
+           <input id="question-2-answer-c" type="radio" name="favelang" value="29"> Dedos azulados nas pontas<br><br>
+  				 <input id="question-2-answer-d" type="radio" name="favelang" value=0,5> Nenhuma dessas <br><br>
+           <div id="submit2" class="button">Enviar Resposta</div>
+           <div class="clearfix"></div>
+  			 </div>
+
+  			 <div id="question-3">	
+  				 <h2>Questão 3</h2>
+  				 <h3>Sente algum desses sintomas?</h3><br><br><br>
+  	  		 <input id="question-3-answer-a" type="radio" name="favelang" value="1"> Dificuldade para respirar <br><br>
+  				 <input id="question-3-answer-b" type="radio" name="favelang" value="2"> Coriza ou nariz entupido<br><br>
+  				 <input id="question-3-answer-c" type="radio" name="favelang" value="29"> Alargamento e arredondamento das pontas dos dedos <br><br>
+           <input id="question-3-answer-d" type="radio" name="favelang" value=0,5> Nenhuma dessas<br><br>
+  				 <div id="submit3" class="button">Enviar Resposta</div>
+           <div class="clearfix"></div>
+  			 </div>
+
+         <div id="question-4">
+            <h2>Questão 4</h2>
+            <h3>Sente algum desses sintomas?</h3><br><br><br>
+            <input id="question-4-answer-a" type="radio" name="favelang" value="1"> Perda de paladar <br><br>
+            <input id="question-4-answer-b" type="radio" name="favelang" value="3"> Febre súbita <br><br>
+            <input id="question-4-answer-c" type="radio" name="favelang" value="6"> Perda de peso involuntária<br><br>
+            <input id="question-4-answer-d" type="radio" name="favelang" value=0,5> Nenhuma dessas<br><br>
+            <div id="submit4" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div id="question-5">
+            <h2>Questão 5</h2>
+            <h3>Sente algum desses sintomas?</h3><br><br><br>
+            <input id="question-5-answer-a" type="radio" name="favelang" value="1"> Olho vermelho ou irritado <br><br>
+            <input id="question-5-answer-b" type="radio" name="favelang" value="3"> Muita dor de cabeça  <br><br>
+            <input id="question-5-answer-c" type="radio" name="favelang" value="1"> Falta de ar  <br><br>
+            <input id="question-5-answer-d" type="radio" name="favelang" value=0,5> Nenhuma dessas<br><br>
+            <div id="submit5" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+         <div id="question-6"> 
+           <h2>Obrigado por responder a pesquisa!</h2>
+           <h3> Resultado do teste:</h3>
+           <h1 id=printtotalscore></h1>
+           <p id=printscoreinfo></p> <br><br><br>
+           <h5> Caso seu teste tenha dado indícios de alguma doença, procure um médico o mais rápido possível. 
+             Nós NÃO atribuímos um PRÉ DIAGNÓSTICO, apenas apresentamos um possível resultado e recomendamos o médico mais próximo!  Não nos responsabilizamos caso o resultado não seja concreto.  </h5>
+           
+           
+
+         </div>
+
+
+
+  	  	</form>
+
+  	  </div>
+  	</div>
+  </div>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>

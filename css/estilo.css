@@ -1,0 +1,194 @@
+*{
+   margin:0; padding: 0; 
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+   text-transform: lowercase uppercase;
+   overflow-x: hidden;
+   
+}
+
+body{
+    
+   min-height: 100vh;
+   background:linear-gradient(68.15deg, #042553 16.32%, #fc5757 85.61%);
+   
+   
+
+   
+   }
+
+
+header{
+   position: fixed;
+   top: 0; left: 0; right: 0;
+   background: #042553;
+   box-shadow: 0 10px 20px rgba(0.0.0.0);
+   padding: 15px 6%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   z-index: 1000;
+}
+
+header .logo img{
+width: 70px;
+}
+
+
+header .navbar ul{
+
+   list-style: none;
+}
+
+header .navbar ul li{
+   position: relative;
+   float: left;
+}
+
+header .navbar ul li a{
+   font-size: 20px;
+   padding: 20px;
+   color: #fc5757;
+   display: block;
+}
+
+header .navbar ul li a:hover{
+   background:#fc5757 ;
+   color:#042553 ;
+
+}
+.center{
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 1400px;
+   margin:0 auto;
+   padding: 0 2%;
+}
+.sobre{
+   margin-top: 300px;
+}
+
+.sobre h1{
+   font-size: 50px;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: #fc5757;
+   text-shadow: 2px 2px 5px #000000;
+}
+
+.sobre p{ 
+   max-width: 400px;
+   font-size: 19px;
+   font-weight: bold;
+   color: aliceblue;
+   letter-spacing: 1px;
+   text-indent: 10px;
+   text-shadow: 
+   -0.5px -0.5px 0.5px rgb(0, 0, 0), 
+   -0.5px 0.5px 0.5px rgb(0, 0, 0),      
+    0.5px -0.5px 0.5px rgb(0, 0, 0),    
+    0.5px 0.5px 0.5px rgb(0, 0, 0);
+
+}
+
+.extra{
+   position: absolute;
+   bottom: 0px;
+   right: 0;
+   
+}
+
+
+.quem{
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 1000px;
+   margin: 3px; 
+   padding: 10px 2%;
+   
+}
+
+.quem-somos{
+   margin-top: 400px;
+   margin-left: 200px;
+}
+
+.quem-somos h1{
+   font-size: 50px;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: #fc5757;
+   text-shadow: 2px 2px 5px #000000;
+   
+
+}
+.quem-somos p{  
+   max-width: 400px;
+   font-size: 19px;
+   font-weight: bold;
+   color: aliceblue;
+   letter-spacing: 1px;
+   text-indent: 10px;
+   text-shadow: 
+   -0.5px -0.5px 0.5px rgb(0, 0, 0), 
+   -0.5px 0.5px 0.5px rgb(0, 0, 0),      
+    0.5px -0.5px 0.5px rgb(0, 0, 0),    
+    0.5px 0.5px 0.5px rgb(0, 0, 0);
+}
+@media (max-width: 1360px){
+   
+   
+   .quem-somos{
+      margin-top: 300px;
+      margin-left: 100px;
+   }
+   .quem-somos h1{
+      font-size: 40px;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color: #fc5757;
+      text-shadow: 2px 2px 5px #000000;
+   }
+   .quem-somos p{  
+      max-width: 400px;
+      font-size: 13px;
+      font-weight: bold;
+      color: aliceblue;
+      letter-spacing: 1px;
+      text-indent: 10px;
+      text-shadow: 
+      -0.5px -0.5px 0.5px rgb(0, 0, 0), 
+      -0.5px 0.5px 0.5px rgb(0, 0, 0),      
+       0.5px -0.5px 0.5px rgb(0, 0, 0),    
+       0.5px 0.5px 0.5px rgb(0, 0, 0);
+   }
+
+
+   .sobre{
+      margin-top: 200px;
+      
+   }
+
+   .sobre h1{
+         font-size: 40px;
+         font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+         color: #fc5757;
+         text-shadow: 2px 2px 5px #000000;
+}
+
+   .sobre p{ 
+          max-width: 400px;
+         font-size: 13px;
+         font-weight: bold;
+         color: aliceblue;
+         letter-spacing: 1px;
+         text-indent: 10px;
+         text-shadow: 
+         -0.5px -0.5px 0.5px rgb(0, 0, 0), 
+         -0.5px 0.5px 0.5px rgb(0, 0, 0),      
+          0.5px -0.5px 0.5px rgb(0, 0, 0),    
+         0.5px 0.5px 0.5px rgb(0, 0, 0);
+   }
+
+}
+
+
+
